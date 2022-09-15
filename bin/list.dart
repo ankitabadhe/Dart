@@ -29,6 +29,13 @@ void main() {
   // print(lst[1]);
   // print(lst[2]);
   // print(lst.runtimeType);
+  
+  //Using List.filled
+
+  var list1 = new List.filled(4, 'A');
+  print(list1);
+  print(list1.runtimeType);
+
 
   //Growable List
 

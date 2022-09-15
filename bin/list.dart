@@ -4,38 +4,47 @@ void main() {
 
   //not able to use list constructor here
 
-  // var lst = new List(4);
-  // lst[0] = "Ankita";
-  // lst[1] = "Badhe";
-  // lst[2] = 000000;
-  // lst[3] = 00.00;
-  // print(lst);
-  // print(lst[0]);
-  // print(lst[1]);
-  // print(lst[2]);
-  // print(lst[3]);
-  // print(lst.runtimeType);
+  List? l1 = List.filled(4, null, growable: false);
+  l1[0] = "Ankita";
+  l1[1] = "Badhe";
+  l1[2] = 000000;
+  l1[3] = 00.00;
+  print(l1);
+  print(l1[0]);
+  print(l1[1]);
+  print(l1[2]);
+  print(l1[3]);
+  print(l1.runtimeType);
 
-  //Fixed Length List with certain data type
-
-  //not able to use list constructor here
-
-  // List<String> lst = new List(3);
-  // lst[0] = "Ankita";
-  // lst[1] = "Badhe";
-  // lst[2] = "Pune";
-  // print(lst);
-  // print(lst[0]);
-  // print(lst[1]);
-  // print(lst[2]);
-  // print(lst.runtimeType);
-  
   //Using List.filled
 
   var list1 = new List.filled(4, 'A');
   print(list1);
   print(list1.runtimeType);
 
+  //Fixed Length List with certain data type
+
+  //not able to use list constructor here
+
+  List<String> l2 = List.filled(3, 'A', growable: false);
+  l2[0] = "Ankita";
+  l2[1] = "Badhe";
+  l2[2] = "Pune";
+  print(l2);
+  print(l2[0]);
+  print(l2[1]);
+  print(l2[2]);
+  print(l2.runtimeType);
+
+  List<int> l3 = List.filled(3, 0, growable: false);
+  l3[0] = 10;
+  l3[1] = 20;
+  l3[2] = 30;
+  print(l3);
+  print(l3[0]);
+  print(l3[1]);
+  print(l3[2]);
+  print(l3.runtimeType);
 
   //Growable List
 
@@ -54,7 +63,7 @@ void main() {
   print(lst2);
   print(lst2.runtimeType);
 
-  var lst3 = <int>[1, 2, 3, 4];
+  var lst3 = <double>[1, 2, 3, 4];
   print(lst3);
   print(lst3.runtimeType);
 

@@ -98,24 +98,24 @@ void main() {
 
   //Error: The parameter 'a' and 'b' can't have a value of 'null' because of its type 'int', but the implicit default value is 'null'
 
-  // add4({int a, int b}) {
-  //   print('A = $a');
-  //   print('B = $b');
-  // }
+    add4({int? a, int? b}) {
+    print('A = $a');
+    print('B = $b');
+  }
 
-  // add4(b: 5, a: 4);
+   add4(b: 5, a: 4);
 
   //Named Parameters dynamic and particular datatype
 
   //Error: The parameter 'a' and 'b' can't have a value of 'null' because of its type 'int', but the implicit default value is 'null'
 
-  // add5(x, {int a, int b}) {
-  //   print('A = $a');
-  //   print('B = $b');
-  //   print('X = $x');
-  // }
+     add5(x, {int? a, int? b}) {
+     print('A = $a');
+     print('B = $b');
+     print('X = $x');
+   }
 
-  // add5("Ankita", b: 10, a: 20);
+     add5("Ankita", b: 10, a: 20);
 
   //Anonymous Functions
 

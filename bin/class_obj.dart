@@ -40,9 +40,9 @@ class Mobile {
   static int memory = 8;
 
   //Static/Class Method
-  //Error: A value of type 'num' can't be assigned to a variable of type 'int'.
-  // static addExtraMemory(extra) {
-  //   memory = memory + extra;
-  //   return memory;
-  // }
+   static addExtraMemory(ex) {
+    int extra = ex;
+    memory = memory + extra;
+    return memory;
+  }
 }

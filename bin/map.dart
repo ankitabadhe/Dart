@@ -4,14 +4,16 @@ void main() {
 
   var address = {'name': 'ankita', 'city': 'pune', 'state': 'maharashtra'};
 
-  // Map<String, String> address = {
-  //   'name': 'ankita',
-  //   'city': 'pune',
-  //   'state': 'maharashtra'
-  // };
+  Map<String, String> address22 = {
+    'name': 'ankita',
+    'city': 'pune',
+    'state': 'maharashtra'
+  };
+  print(address22);
+  print(address22.runtimeType);
 
-  // print(address);
-  // print(address.runtimeType);
+  print(address);
+  print(address.runtimeType);
 
   var product = {1: 'Mobile', 2: 'Laptop', 3: 'Watch'};
   print(product);
@@ -43,11 +45,11 @@ void main() {
 
   //Add item to Map
 
-  // var address = {};
-  // address['name'] = 'Ankita';
-  // address['city'] = 'Pune';
-  // print(address);
-  // print(address.runtimeType);
+  var address11 = {};
+  address11['name'] = 'Aditya';
+  address11['city'] = 'Mumbai';
+  print(address11);
+  print(address11.runtimeType);
 
   //Access Map Elements
 
@@ -66,3 +68,6 @@ void main() {
   print(address.containsKey('name'));
   print(address.containsValue('ankita'));
 }
+
+
+  

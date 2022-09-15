@@ -1,32 +1,32 @@
-void main() {
+\void main() {
   //Operators
 
   //#Arithmetic Operators
 
-  // var a = 5;
-  // var b = 20;
-  // var c = 50;
-  // var d = 4;
+  var a = 5;
+  var b = 20;
+  var c = 50;
+  var d = 4;
 
-  // print(a + b);
-  // print(c - d);
-  // print(a * b);
-  // print(c / d);
-  // print(c ~/ d);
-  // print(c % d);
+  print(a + b);
+  print(c - d);
+  print(a * b);
+  print(c / d);
+  print(c ~/ d);
+  print(c % d);
 
   //#Prefix and Postfix Increment and Decrement operators
 
-  // var i = 5;
-  // print(i);
-  // print(++i);
-  // print(i);
-  // print(i++);
-  // print(i);
-  // print(--i);
-  // print(i);
-  // print(i--);
-  // print(i);
+  var i = 5;
+  print(i);
+  print(++i);
+  print(i);
+  print(i++);
+  print(i);
+  print(--i);
+  print(i);
+  print(i--);
+  print(i);
 
   //#Equality and Relational operators
 
@@ -50,12 +50,12 @@ void main() {
 
   //#Type Test Operators
 
-  // var name = "Abhay";
-  // var number = 100;
-  // print(name is String);
-  // print(name is! String);
-  // print(number is int);
-  // print(number is! int);
+  var name = "Abhay";
+  var number = 100;
+  print(name is String);
+  print(name is! String);
+  print(number is int);
+  print(number is! int);
 
 //   //#Assignment Operators
 
@@ -66,3 +66,4 @@ void main() {
   n *= 5; // n = n * 5
   print(n);
 }
+

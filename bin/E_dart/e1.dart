@@ -80,4 +80,35 @@ void main() {
   var f = null;
   print(f);
   print(f.runtimeType);
+  
+  
+  print('\n');
+
+  num g = 1;
+  print(g);
+  print(g.runtimeType);
+
+  print('\n');
+
+  g = 12.67;
+  print(g);
+  print(g.runtimeType);
+  g = 19;
+  print(g);
+  print(g.runtimeType);
+
+  print('\n');
+
+  // num h;
+  // print(h);
+  // print(h.runtimeType);
+
+  print('\n');
+
+  num h = 12.67;
+  print(h);
+  print(h.runtimeType);
+  h = 19;
+  print(h);
+  print(h.runtimeType);
 }
